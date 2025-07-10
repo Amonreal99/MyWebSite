@@ -1,0 +1,149 @@
+
+.OutterContainer{
+    height: auto;
+    width: 600px;
+    border: 5px solid #2b2d42d3; 
+    background-color:#2b2d4295;
+    border-radius: 10px;
+    margin-top: -240px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   position: absolute;
+
+    
+}
+.CloseContainer{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2.5px solid rgba(0, 0, 0, 0.836);
+    border-radius: 5px;
+    
+
+    
+}
+.InnerContainer{
+    height:auto;
+    width: auto;
+    
+    margin: 20px;
+    border: 2.5px solid #2b2d42d3; 
+    background-color:#2b2d4295;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+}
+
+.ProjectPicture{
+    height: 300px;
+    width:400px;
+    border-radius:5px;
+    margin-top: 20px;
+    
+}
+.Arrow .arrow{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.734);
+    border-radius: 2.5px;
+    position: relative;
+    margin-right: -180px;
+   margin-bottom: -23.5px;
+    
+    
+}
+.ArrowL .arrowL{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.734);
+    border-radius: 2.5px;
+    position:relative;
+    margin-right: 180px;
+    
+}
+
+
+
+.Title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45%;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-family: 'Inter',sans-serif;
+    font-weight: 550;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    
+}
+.Text{
+    font-family: 'Inter',sans-serif;
+    font-weight: 450;
+    color:rgb(255, 255, 255);
+    font-size: 15px;
+   
+    height: auto;
+    width: 400px;
+}
+
+
+
+@media (max-width:786px){
+.OutterContainer{
+    height: auto;
+    width: 500px;
+    margin-top: -140px;
+    border: 5px solid #2b2d42d3; 
+    background-color:#2b2d42cc;
+    border-radius: 10px;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   position: absolute;
+   margin-bottom: 10px;
+    
+}
+.CloseContainer{
+    height: 20px;
+    width: 20px;
+
+}
+.InnerContainer{
+    height:auto;
+    width: auto;
+    margin-top: -10px;
+    border: 2.5px solid #2b2d42d3; 
+    background-color:#2b2d42e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+
+}
+
+.ProjectPicture{
+    height: auto;
+    width:400px;
+    border-radius:5px;
+    margin-top: -1px;
+}
+.Title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 42.5%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+}

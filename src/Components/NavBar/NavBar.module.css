@@ -1,0 +1,120 @@
+.Container {
+  background-color: #2b2d4275;
+  position: fixed;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  box-shadow: 0 4px 8px rgb(15, 15, 15);
+  z-index: 100;
+}
+
+.InnerContainer {
+  background-color: transparent;
+  margin: 10px;
+  height: 100%;
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Name {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 0.1px;
+}
+
+.dropDown {
+  position: absolute;
+  top: 70px; /* Just below the NavBar */
+  background-color: #2b2d423a;
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgb(15, 15, 15);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+} 
+
+.dropDown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+}
+.navLink{
+  text-decoration: none;
+  color: rgb(245, 245, 245);
+}
+.navLink:hover{
+  color: rgb(225, 225, 225);
+}
+
+
+
+@media (max-width: 786px) {
+  .Container {
+    flex-direction: column;
+    height: auto;
+    
+  }
+
+  .InnerContainer {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:50px;
+  }
+
+  .Name {
+    font-size: 18px;
+    margin:0;
+    text-align: center;
+  }
+
+   .dropDown {
+    position: absolute;
+    margin-right: 400px;
+    margin-top: 0;
+    width: auto;
+    align-items: center;
+  }
+
+  .dropDown ul {
+    align-items: center;
+    
+  } 
+
+
+}
+
+button{
+    all:unset;
+    cursor: pointer;
+    
+}
+/* The menu icon*/
+.Container img{
+    
+    width: 50px;
+    height: 50px;
+   box-shadow: none;
+}
+
+
+
+
+
