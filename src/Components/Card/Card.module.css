@@ -1,79 +1,81 @@
-.OutterContainer{
+.OutterContainer {
     height: auto;
-    width:400px;
-    border: 5px solid #2b2d42d3; 
-    background-color:#2b2d4295;
+    width: 400px;
+    border: 5px solid #2b2d42d3;
+    background-color: #2b2d4295;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 10px;
-    
+
 }
-.TitleContainer{
-    margin:0;
-    font-family: 'Inter',sans-serif;
+
+.TitleContainer {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
     font-weight: 550;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 
-@media (max-width:786px){
+@media (max-width:786px) {
 
-.OutterContainer{
-    height: auto;
-    width:200px;
-    border: 5px solid #2b2d42d3; 
-    background-color:#2b2d4295;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 10px;
-    
+    .OutterContainer {
+        height: auto;
+        width: 200px;
+        border: 5px solid #2b2d42d3;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 10px;
+
+    }
+
 }
 
-}
-
-.InnerContainer{
+.InnerContainer {
     height: auto;
     width: 350px;
-    border: 2.5px solid #2b2d42ec; 
-    background-color:#2b2d42c5;
+    border: 2.5px solid #2b2d42ec;
+    background-color: #2b2d42c5;
     margin: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.ProjectPicture{
+
+.ProjectPicture {
     height: auto;
-    width:275px;
-    margin:10px;
+    width: 275px;
+    margin: 10px;
 }
-.Arrow{
+
+.Arrow {
     height: 50px;
     width: 50px;
     background-color: blue;
 }
 
-@media (max-width:786px){
-.InnerContainer{
-    height: auto;
-    width: 150px;
-    border: 2.5px solid #2b2d42ec; 
-    background-color:#2b2d42c5;
-    margin: 10px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+@media (max-width:786px) {
+    .InnerContainer {
+        height: auto;
+        width: 150px;
+        border: 2.5px solid #2b2d42ec;
+        background-color: #2b2d42c5;
+        margin: 10px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.ProjectPicture{
-    height: auto;
-    width:125px;
-    margin:10px;
+    .ProjectPicture {
+        height: auto;
+        width: 125px;
+        margin: 10px;
+    }
 }
-}
-

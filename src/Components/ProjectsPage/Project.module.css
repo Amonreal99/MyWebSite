@@ -1,51 +1,45 @@
-.CityContainer{
-    height: 100vh;
-    width:100%;
-    background-color: #2b2d4295;
-    background-size:cover;
-     background-position: center;
-  background-repeat:initial;
+.CityContainer {
+
+
     position: relative;
-    
+
 }
 
 
-.Selfie{
+.Selfie {
     height: 360px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.HeadShot{
-    height:200px;
-    width:200px;
+.HeadShot {
+    height: 200px;
+    width: 200px;
     border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5)
 }
 
-.CardContainer{
+.CardContainer {
     margin-top: -20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-items:center;
-    gap:15px;
+    justify-items: center;
+    gap: 15px;
     position: relative;
-    
-    
+
+
 }
 
-@media(max-width:850px){
-     .CardContainer{
-    margin-top: -10px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    gap:15px;
-    position: relative;
-    
-}
+@media(max-width:850px) {
+    .CardContainer {
+        margin-top: -10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        gap: 15px;
+        position: relative;
+
+    }
 }

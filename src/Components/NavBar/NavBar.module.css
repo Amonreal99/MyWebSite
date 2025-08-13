@@ -34,7 +34,8 @@
 
 .dropDown {
   position: absolute;
-  top: 70px; /* Just below the NavBar */
+  top: 70px;
+  /* Just below the NavBar */
   background-color: #2b2d423a;
   width: 100px;
   padding: 10px;
@@ -43,7 +44,7 @@
   display: flex;
   flex-direction: column;
   z-index: 1000;
-} 
+}
 
 .dropDown ul {
   list-style: none;
@@ -53,11 +54,13 @@
   font-weight: 550;
   font-size: 20px;
 }
-.navLink{
+
+.navLink {
   text-decoration: none;
   color: rgb(245, 245, 245);
 }
-.navLink:hover{
+
+.navLink:hover {
   color: rgb(225, 225, 225);
 }
 
@@ -67,7 +70,7 @@
   .Container {
     flex-direction: column;
     height: auto;
-    
+
   }
 
   .InnerContainer {
@@ -76,16 +79,16 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap:50px;
+    gap: 50px;
   }
 
   .Name {
     font-size: 18px;
-    margin:0;
+    margin: 0;
     text-align: center;
   }
 
-   .dropDown {
+  .dropDown {
     position: absolute;
     margin-right: 400px;
     margin-top: 0;
@@ -95,26 +98,22 @@
 
   .dropDown ul {
     align-items: center;
-    
-  } 
+
+  }
 
 
 }
 
-button{
-    all:unset;
-    cursor: pointer;
-    
+button {
+  all: unset;
+  cursor: pointer;
+
 }
+
 /* The menu icon*/
-.Container img{
-    
-    width: 50px;
-    height: 50px;
-   box-shadow: none;
+.Container img {
+
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
 }
-
-
-
-
-

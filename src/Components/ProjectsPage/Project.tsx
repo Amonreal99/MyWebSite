@@ -1,5 +1,4 @@
 import styles from './Project.module.css';
-import City from '../../Pictures/city2.jpg';
 import NavBar from '../NavBar/NavBar';
 import Selfie from '../../Pictures/headshot.JPG';
 import Card from '../Card/Card';
@@ -26,14 +25,14 @@ function Project() {
   };
 
   return (
-    <div className={styles.CityContainer} style={{ backgroundImage: `url(${City})` }}>
+    <div className={styles.CityContainer} >
       <NavBar />
       <div className={styles.Selfie}>
         <img src={Selfie} alt="Selfie" className={styles.HeadShot} />
       </div>
 
       <div className={styles.CardContainer}>
-        
+
         <div onClick={handleCardClick} style={{ cursor: 'pointer' }}>
           <Card />
         </div>
