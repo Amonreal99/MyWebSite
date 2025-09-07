@@ -66,7 +66,7 @@ function Projectcard3() {
                 <img src={UGACollection[index].img} className={style.ProjectPicture} alt="Picture of Project" />
                 <button className={style.Arrow} onClick={handleNextPicture}><img src={arrow} alt="next button" className={style.arrow} /></button>
                 <button className={style.ArrowL} onClick={handleNextPicture}><img src={arrowL} alt="back button" className={style.arrowL} /></button>
-                <p className={style.Text}>This project is a website that makes it easy to read and explore the Bible. It includes a Verse of the Day and lets you browse through books of the Old and New Testament in a clean and simple way. The goal is to give people a quick and easy way to connect with scripture. <a href='https://bible-pi21.vercel.app'>Link</a></p>
+                <p className={style.Text}>This project is a website that makes it easy to read and explore the Bible. It includes a Verse of the Day and lets you browse through books of the Old and New Testament in a clean and simple way. The goal is to give people a quick and easy way to connect with scripture. <a href='https://bible-pi21.vercel.app' style={{ color: "green", fontWeight: "bolder" }}> Link to site</a></p>
 
             </div>
 
