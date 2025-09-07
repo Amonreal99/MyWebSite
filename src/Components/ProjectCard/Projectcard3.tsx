@@ -1,9 +1,9 @@
 import style from './Projectcard.module.css';
-import UGA0 from '../../Pictures/UGA0.png';
-import UGA1 from '../../Pictures/UGA1.png';
-import UGA2 from '../../Pictures/UGA2.png';
-import UGA3 from '../../Pictures/UGA3.png';
-import UGA4 from '../../Pictures/UGA4.png';
+import BIBLE0 from '../../Pictures/bible0.png';
+import BIBLE1 from '../../Pictures/bible1.png';
+import BIBLE2 from '../../Pictures/bible2.png';
+import BIBLE3 from '../../Pictures/bible3.png';
+import BIBLE4 from '../../Pictures/bible4.png';
 import Tab from '../TabButton/Button';
 import React, { useState } from 'react';
 import Close from '../../Pictures/close.png';
@@ -16,23 +16,23 @@ function Projectcard3() {
     const UGACollection = [
         {
             label: "First Picture",
-            img: UGA0,
+            img: BIBLE0,
         },
         {
             label: "Second Picture",
-            img: UGA1,
+            img: BIBLE1,
         },
         {
             label: "Third Picture",
-            img: UGA2,
+            img: BIBLE2,
         },
         {
             label: "Fourth Picture",
-            img: UGA3,
+            img: BIBLE3,
         },
         {
             label: "Fifth Picture",
-            img: UGA4,
+            img: BIBLE4,
         },
     ];
 
@@ -61,12 +61,12 @@ function Projectcard3() {
     return (
         <div className={style.OutterContainer}>
 
-            <p className={style.Title}>askUGA <Tab label={<img src={Close} alt='Close button' className={style.CloseContainer} />} onClick={handleCloseCard} /></p>
+            <p className={style.Title}>The Bible<Tab label={<img src={Close} alt='Close button' className={style.CloseContainer} />} onClick={handleCloseCard} /></p>
             <div className={style.InnerContainer}>
                 <img src={UGACollection[index].img} className={style.ProjectPicture} alt="Picture of Project" />
                 <button className={style.Arrow} onClick={handleNextPicture}><img src={arrow} alt="next button" className={style.arrow} /></button>
                 <button className={style.ArrowL} onClick={handleNextPicture}><img src={arrowL} alt="back button" className={style.arrowL} /></button>
-                <p className={style.Text}>Text about Project goes here</p>
+                <p className={style.Text}>This project is a website that makes it easy to read and explore the Bible. It includes a Verse of the Day and lets you browse through books of the Old and New Testament in a clean and simple way. The goal is to give people a quick and easy way to connect with scripture.</p>
 
             </div>
 

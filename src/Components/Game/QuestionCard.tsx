@@ -48,7 +48,8 @@ function QuestionCard() {
 
         setIsLoading(true);
 
-        fetch(`/api/trivia?t=${Date.now()}`, { signal: controller.signal })
+        //fetch(`/api/trivia?t=${Date.now()}`, { signal: controller.signal })
+        fetch("/api/trivia", { signal: controller.signal })
 
             .then(res => res.json())
             .then(data => {

@@ -70,12 +70,12 @@ function Projectcard2() {
     return (
         <div className={style.OutterContainer}>
 
-            <p className={style.Title}>askUGA <Tab label={<img src={Close} alt='Close button' className={style.CloseContainer} />} onClick={handleCloseCard} /></p>
+            <p className={style.Title}>Classic City <Tab label={<img src={Close} alt='Close button' className={style.CloseContainer} />} onClick={handleCloseCard} /></p>
             <div className={style.InnerContainer}>
                 <img src={PlayCollection[index].img} className={style.ProjectPicture} alt="Picture of Project" />
                 <button className={style.Arrow} onClick={handleNextPicture}><img src={arrow} alt="next button" className={style.arrow} /></button>
                 <button className={style.ArrowL} onClick={handleNextPicture}><img src={arrowL} alt="back button" className={style.arrowL} /></button>
-                <p className={style.Text}>Text about Project goes here</p>
+                <p className={style.Text}>This project is a theater website where users can log in to manage their accounts, explore shows, and stay connected with Classic City Theater. It focuses on providing a clean and easy-to-use login system as the first step to accessing theater information.</p>
 
             </div>
 
