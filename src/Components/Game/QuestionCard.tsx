@@ -39,6 +39,7 @@ function QuestionCard() {
 
     };
 
+    const API_BASE = process.env.REACT_APP_API_URL;
 
     useEffect(() => {
         console.log("useefffect triggered");
@@ -49,10 +50,12 @@ function QuestionCard() {
         setIsLoading(true);
 
         //fetch(`/api/trivia?t=${Date.now()}`, { signal: controller.signal })
-        fetch("/api/trivia", { signal: controller.signal })
 
+
+        fetch(`${API_BASE}/api/trivia`, { signal: controller.signal })
             .then(res => res.json())
             .then(data => {
+
                 if (thisReqId !== reqIdRef.current) return;
                 if (data?.error) {
                     console.log("trivia error:", data.error);
