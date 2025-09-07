@@ -43,7 +43,7 @@ function QuestionCard() {
 
     useEffect(() => {
         console.log("useefffect triggered");
-        if (questionCount >= 10) return;
+        if (questionCount >= 50) return;
         const controller = new AbortController();
         const thisReqId = ++reqIdRef.current;
 
