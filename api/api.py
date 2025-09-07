@@ -29,3 +29,7 @@ def get_trivia():
         'correct_answer': html.unescape(question_data['correct_answer']),
         'incorrect_answers': [html.unescape(ans) for ans in question_data['incorrect_answers']]
     })
+
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
